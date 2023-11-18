@@ -1858,3 +1858,7 @@ main.contact-us {
 .footer-menu-item {
   margin-bottom: 10px;
 }
+
+.footer-menu {
+  margin: 0 5px;
+}
