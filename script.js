@@ -67,18 +67,18 @@ $(document).ready(function () {
 });
 
 // Get all anchor elements on the page
-const anchorElements = document.querySelectorAll("a");
+// const anchorElements = document.querySelectorAll("a");
 
-// Loop through each anchor element
-anchorElements.forEach((anchor) => {
-  const href = anchor.getAttribute("href");
+// // Loop through each anchor element
+// anchorElements.forEach((anchor) => {
+//   const href = anchor.getAttribute("href");
 
-  // Check if the href attribute contains ".html"
-  if (href && href.includes(".html")) {
-    // Remove ".html" from the href attribute
-    anchor.setAttribute("href", href.replace(".html", ""));
-  }
-});
+//   // Check if the href attribute contains ".html"
+//   if (href && href.includes(".html")) {
+//     // Remove ".html" from the href attribute
+//     anchor.setAttribute("href", href.replace(".html", ""));
+//   }
+// });
 
 function openMenu() {
   var x = document.getElementById("mobileMenu");

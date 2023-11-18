@@ -233,12 +233,12 @@ header {
 
 /* about us page */
 .about-banner-wrapper {
-  background-color: #eafff7;
+  background-color: #b4daff;
   width: 100%;
 }
 
 .about-banner-wrapper > * {
-  color: #17490f;
+  color: #06327b;
 }
 
 .about-banner-content {
@@ -283,13 +283,13 @@ header {
 }
 
 .text-first {
-  background-color: #13430b;
+  background-color: #011f49;
   padding: 40px;
   padding-bottom: 50px;
 }
 
 .text-second {
-  background-color: #52b05b;
+  background-color: #5274b0;
   padding: 40px;
   padding-bottom: 50px;
 }
@@ -338,7 +338,7 @@ header {
 
 .introduction-text h2 {
   margin-bottom: 20px;
-  color: #242e04;
+  color: #06327b;
 }
 
 .introduction-text p {
@@ -623,7 +623,7 @@ footer {
 .home-banner-button {
   margin-top: 20px;
   border: none;
-  background-color: #366026;
+  background-color: #0156e4;
   color: #fff;
   padding: 10px 30px;
   font-size: 16px;
@@ -790,14 +790,15 @@ footer {
 }
 
 .homepage-product-item {
-  width: calc(30% - 30px);
+  /* width: calc(30% - 30px); */
   margin-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-bottom: 30px;
   transition: all 0.5s ease;
   cursor: pointer;
   background-color: #fff;
-  min-width: 419px;
+  width: 400px;
+  height: 369px;
   flex: 0 0 auto;
 }
 
@@ -846,8 +847,8 @@ footer {
 }
 
 .tab-item.active {
-  color: #418d25;
-  border-bottom: 2px solid #418d25;
+  color: #0156e4;
+  border-bottom: 2px solid #0156e4;
 }
 
 /* .homepage-about-right {
@@ -882,7 +883,7 @@ footer {
 }
 
 .navigation-item.active {
-  background-color: #366026;
+  background-color: #0156e4;
   color: #fff;
 }
 
@@ -951,7 +952,7 @@ footer {
 .header-menu-item:hover,
 .header-menu-item .dropbtn:hover,
 .header-menu-item:has(.dropdown-content:hover) {
-  color: #366026;
+  color: #0156e4;
 }
 
 .dropdown-content {
@@ -1007,7 +1008,7 @@ footer {
 #mobileMenu a:hover,
 .products-dropdown:hover,
 #mobileMenu .header-menu-item:hover {
-  color: #366026;
+  color: #0156e4;
 }
 
 #clickWrapper {
@@ -1423,6 +1424,7 @@ main {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   margin-right: 20px;
+  cursor: zoom-in;
 }
 
 .gallery-item img {
@@ -1512,7 +1514,7 @@ main {
 .contact-item .contact-button-primary {
   margin-top: 20px;
   border: none;
-  background-color: rgb(54, 96, 38);
+  background-color: #0156e4;
   color: rgb(255, 255, 255);
   padding: 10px 30px;
   font-size: 16px;
@@ -1525,9 +1527,9 @@ main {
 .contact-item .contact-button-secondary {
   margin-top: 10px;
   border: none;
-  border: 2px solid rgb(54, 96, 38);
-  color: rgb(54, 96, 38);
-  background-color: #e3f3e3;
+  border: 2px solid #0156e4;
+  color: #0156e4;
+  background-color: #f2f8ff;
   padding: 10px 30px;
   font-size: 16px;
   text-decoration: none;
@@ -1539,8 +1541,8 @@ main {
 .contact-item .contact-button-tertiary {
   margin-top: 10px;
   border: none;
-  border: 2px solid rgb(54, 96, 38);
-  color: rgb(54, 96, 38);
+  border: 2px solid #0156e4;
+  color: #0156e4;
   padding: 10px 30px;
   font-size: 16px;
   text-decoration: none;
@@ -1625,9 +1627,9 @@ button:hover {
   margin-top: 20px;
   border: none;
   background-color: #fff;
-  color: #366026;
+  color: #0156e4;
   font-weight: 700;
-  border: 1px solid #366026;
+  border: 1px solid #0156e4;
   padding: 10px 30px;
   font-size: 16px;
 }
@@ -1699,8 +1701,12 @@ button:hover {
 
 .contact-form-right {
   width: 40%;
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
-  /* background-color: #1089ff; */
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
   padding: 40px;
   padding-top: 50px;
 }
@@ -1760,7 +1766,7 @@ button:hover {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  outline: 1px solid #0ba360;
+  outline: 1px solid #0156e4;
 }
 
 .contact-form-left {
@@ -1774,7 +1780,7 @@ button:hover {
 }
 
 .contact-submit {
-  background-color: #0ba360;
+  background-color: #0156e4;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -1787,7 +1793,7 @@ button:hover {
 }
 
 .contact-submit:hover {
-  background-color: #0a7f4b;
+  background-color: #3b80bd;
 }
 
 .contact-container {

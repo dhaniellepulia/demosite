@@ -72,7 +72,9 @@ var siteData = {
 $(document).ready(function () {
   $.each(siteData.gallery_photos, function (k, imageSrc) {
     var galleryItem = $("<div class='gallery-item'></div>");
-    galleryItem.append($("<img>", { src: imageSrc }));
+    var fancyboxContainer = $("<a data-fancybox='gallery'></a>");
+    galleryItem.append(fancyboxContainer.attr("data-src", imageSrc));
+    fancyboxContainer.append($("<img>", { src: imageSrc }));
     $(".gallery-content-slider").append(galleryItem);
   });
 
