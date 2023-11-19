@@ -1679,7 +1679,7 @@ button:hover {
 }
 
 .contact-button-wrapper a {
-  width: 216px;
+  width: 250px;
   text-align: center;
 }
 
@@ -1697,6 +1697,21 @@ button:hover {
 .contact-form-left {
   width: 60%;
   padding: 100px 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .contact-item a {
+    font-size: 14px !important;
+  }
+
+  .contact-button-wrapper a {
+    width: 210px;
+    text-align: center;
+  }
+
+  .contact-button {
+    padding: 10px !important;
+  }
 }
 
 .contact-form-right {
@@ -1743,7 +1758,8 @@ button:hover {
   color: #fff;
 }
 
-.contact-right-item-text a {
+.contact-right-item-text a,
+.contact-right-item-text {
   margin-left: 5px;
   display: block;
   margin-bottom: 10px;
@@ -1799,7 +1815,7 @@ button:hover {
 }
 
 .contact-container {
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
 }
@@ -1869,4 +1885,20 @@ main.contact-us {
 
 .footer-menu {
   margin: 0 5px;
+}
+
+@media (max-width: 450px) {
+  .homepage-product-item img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .homepage-product-photo {
+    height: unset;
+  }
+
+  .homepage-product-item {
+    height: unset;
+  }
 }

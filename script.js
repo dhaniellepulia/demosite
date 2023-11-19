@@ -1,4 +1,18 @@
 $(document).ready(function () {
+  if ($(window).width() < 768) {
+    const productWrapper = $(".main-product-wrapper");
+
+    if (productWrapper.length > 0) {
+      // Smooth scroll to the targetDiv with an offset of -80 pixels
+      $("html, body").animate(
+        {
+          scrollTop: productWrapper.offset().top - 80,
+        },
+        100
+      );
+    }
+  }
+
   $(".banner-carousel").slick({
     dots: true,
     autoplay: true,
