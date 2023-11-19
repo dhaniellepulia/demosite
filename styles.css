@@ -898,7 +898,7 @@ footer {
 .product-information li::before {
   content: "\2022";
   font-size: 20px;
-  color: #366026;
+  color: #013997;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -1756,16 +1756,84 @@ button:hover {
 .contact-right-item-text {
   /* color: #333333; */
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 
-.contact-right-item-text a,
-.contact-right-item-text {
+.contact-right-item-text a
+ {
   margin-left: 5px;
   display: block;
-  margin-bottom: 10px;
   font-weight: 600;
-  word-break: break-all;
+}
+
+
+
+.contact-right-item-text{
   font-size: 20px;
+  font-weight: 600;
+}
+
+@media (min-width: 905px) and (max-width: 1075px){
+  .contact-form-right h3 {
+    font-size: 40px;
+}
+  .contact-right-item-text{
+    font-size: 16px;
+  }
+
+  .font-right-item-icon i{
+    font-size: 25px;
+  }
+  .contact-right-item-icon{
+    min-height: 60px;
+    min-width: 60px;
+  }
+}
+
+
+@media(min-width: 768px) and (max-width: 905px){
+  .contact-right-item-text{
+    font-size: 13px;
+  }
+
+  .font-right-item-icon i{
+    font-size: 18px;
+  }
+  .contact-right-item-icon{
+    min-height: 50px;
+    min-width: 50px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 600px){
+  .contact-right-item-text, .contact-form-wrapper .contact-form-right a {
+    font-size: 15px !important;
+  }
+
+  .font-right-item-icon i{
+    font-size: 18px !important;
+  }
+  .contact-right-item-icon{
+    min-height: 60px !important;
+    min-width: 60px !important;
+  }
+}
+
+@media (max-width: 360px){
+  .contact-right-item-text, .contact-form-wrapper .contact-form-right a {
+    font-size: 13px !important;
+  }
+
+  .font-right-item-icon i{
+    font-size: 16px !important;
+  }
+  .contact-right-item-icon{
+    min-height: 50px !important;
+    min-width: 50px !important;
+  }
 }
 
 .form-group input,
@@ -1785,6 +1853,10 @@ button:hover {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: 1px solid #0156e4;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder{
+  font-weight: 600;
 }
 
 .contact-form-left {
@@ -1900,5 +1972,30 @@ main.contact-us {
 
   .homepage-product-item {
     height: unset;
+  }
+}
+
+@media (min-width: 800px ) and (max-width: 1000px){
+.about-title{
+  font-size: 35px;
+}
+}
+
+@media (min-width: 1000px){
+  .about-title{
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1400px){
+  .about-title{
+    font-size: 50px;
+  }
+}
+
+
+@media (min-width: 1600px){
+  .about-title{
+    font-size: 60px;
   }
 }
