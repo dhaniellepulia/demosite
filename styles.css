@@ -2004,3 +2004,17 @@ main.contact-us {
     font-size: 60px;
   }
 }
+
+.contact-recaptcha{
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 400px){
+  .contact-recaptcha .rc-anchor-normal {
+    width: 200px !important;
+    margin-left: 100px !important;
+}
+}
