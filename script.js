@@ -15,12 +15,12 @@ $(document).ready(function () {
     }
   }
 
-  if ($(window).width() < 400) {
-    $('iframe[title="reCAPTCHA"]').css({
-      'width': '200px',
-      'margin-left': '100px'
-    });
-  }
+  // if ($(window).width() < 400) {
+  //   $('iframe[title="reCAPTCHA"]').css({
+  //     'width': '200px',
+  //     'margin-left': '100px'
+  //   });
+  // }
 
   $(".banner-carousel").slick({
     dots: true,
