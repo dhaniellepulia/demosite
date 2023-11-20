@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+
   if ($(window).width() < 768) {
     const productWrapper = $(".main-product-wrapper");
 
@@ -11,6 +13,13 @@ $(document).ready(function () {
         100
       );
     }
+  }
+
+  if ($(window).width() < 400) {
+    $('iframe[title="reCAPTCHA"]').css({
+      'width': '200px',
+      'margin-left': '100px'
+    });
   }
 
   $(".banner-carousel").slick({
