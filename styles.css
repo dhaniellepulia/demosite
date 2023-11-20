@@ -2013,7 +2013,7 @@ main.contact-us {
 }
 
 @media (max-width: 400px){
-  .contact-recaptcha iframe[title="reCAPTCHA"] {
+  .contact-recaptcha iframe {
     width: 200px !important;
     margin-left: 100px !important;
 }
