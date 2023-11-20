@@ -15,12 +15,9 @@ $(document).ready(function () {
     }
   }
 
-  // if ($(window).width() < 400) {
-  //   $('iframe[title="reCAPTCHA"]').css({
-  //     'width': '200px',
-  //     'margin-left': '100px'
-  //   });
-  // }
+  if ($(window).width() < 400) {
+    $('.g-recaptcha').attr('data-size','compact');
+  }
 
   $(".banner-carousel").slick({
     dots: true,
