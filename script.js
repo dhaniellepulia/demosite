@@ -22,6 +22,7 @@ $(document).ready(function () {
   $(".banner-carousel").slick({
     dots: true,
     autoplay: true,
+    mobileFirst: true,
   });
 
   $(".tab-item[data-category='all']").addClass("active");
