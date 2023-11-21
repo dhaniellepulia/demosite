@@ -23,6 +23,7 @@ $(document).ready(function () {
     dots: true,
     autoplay: true,
     mobileFirst: true,
+    variableWidth: false,
   });
 
   $(".tab-item[data-category='all']").addClass("active");
