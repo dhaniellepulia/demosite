@@ -16,11 +16,6 @@ var siteData = {
     "Image 14": "/assets/gallery/12-1.jpg",
     "Image 15": "/assets/gallery/12-2.jpg",
   },
-  header_photos:{
-    "Image 1": "/assets/pexels-quang-nguyen-vinh-2172885.jpg",
-    "Image 2": "/assets/main-header-2.jpg",
-    "Image 3": "/assets/main-header-3.jpg",
-  },
   grain_dryer: {
     "Image 1": "/assets/products-main-images/grain-dryer-photo2.jpg",
     "Image 3": "/assets/products-main-images/grain-dryer-photo3.jpg",
@@ -74,12 +69,6 @@ var siteData = {
 };
 
 $(document).ready(function () {
-  $.each(siteData.header_photos, function (k, imageSrc) {
-    var headerPhoto = $("<div class='banner-photo'></div>");
-    headerPhoto.append($("<img>", { src: imageSrc }));
-    $(".banner-carousel").append(headerPhoto);
-  });
-
   $.each(siteData.gallery_photos, function (k, imageSrc) {
     var galleryItem = $("<div class='gallery-item'></div>");
     var fancyboxContainer = $("<a data-fancybox='gallery'></a>");
