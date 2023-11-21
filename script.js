@@ -20,6 +20,8 @@ $(document).ready(function () {
   }
 
   $(".banner-carousel").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
     dots: true,
     slidesToScroll: 1,
     autoplay: true,
