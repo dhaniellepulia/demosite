@@ -21,9 +21,9 @@ $(document).ready(function () {
 
   $(".banner-carousel").slick({
     dots: true,
+    slidesToScroll: 1,
     autoplay: true,
-    mobileFirst: true,
-    variableWidth: false,
+    autoplaySpeed: 2000,
   });
 
   $(".tab-item[data-category='all']").addClass("active");
