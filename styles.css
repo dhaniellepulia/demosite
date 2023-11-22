@@ -2018,3 +2018,10 @@ main.contact-us {
     margin-left: 100px !important;
 }
 }
+
+.copyright-wrapper p{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 13px !important;
+  color: #393f46;
+}
